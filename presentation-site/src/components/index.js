@@ -9,5 +9,6 @@ import Footer from './Footer.jsx';
 import GetStarted from './GetStarted.jsx';
 import Hero from './Hero.jsx';
 import Testimonials from './Testimonials.jsx';
+import Stats from './Stats.jsx';
 
-export {Navbar, Billing, Business, Button, CardDeal, Clients, CTA, Footer, GetStarted, Hero, Testimonials};
+export {Navbar, Billing, Business, Button, CardDeal, Clients, CTA, Footer, GetStarted, Hero, Stats, Testimonials};

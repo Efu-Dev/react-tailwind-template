@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './style.js';
 
-import {Navbar, Billing, Business, Button, CardDeal, Clients,
+import {Navbar, Billing, Business, Button, CardDeal, Clients, Stats,
   CTA, Footer, GetStarted, Hero, Testimonials} from './components/index.js';
 
 const App = () => (
