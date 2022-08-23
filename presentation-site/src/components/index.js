@@ -6,9 +6,9 @@ import CardDeal from './CardDeal.jsx';
 import Clients from './Clients.jsx';
 import CTA from './CTA.jsx';
 import Footer from './Footer.jsx';
-import GetStarted from './GetStarted.jsx';
+import GetInTouch from './GetInTouch.jsx';
 import Hero from './Hero.jsx';
 import Testimonials from './Testimonials.jsx';
 import Stats from './Stats.jsx';
 
-export {Navbar, Billing, Business, Button, CardDeal, Clients, CTA, Footer, GetStarted, Hero, Stats, Testimonials};
+export {Navbar, Billing, Business, Button, CardDeal, Clients, CTA, Footer, GetInTouch, Hero, Stats, Testimonials};
