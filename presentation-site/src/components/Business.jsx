@@ -14,7 +14,13 @@ const Business = () => {
           Jammu Jammu Jammu Jammu Jammu Jammu Jammu Jammu Jammu Jammu Jammu Jammu Jammu Jammu Jammu Jammu Jammu Jammu Jammu Jammu Jammu Jammu Jammu Jammu 
           Jammu Jammu Jammu Jammu Jammu Jammu Jammu Jammu Jammu Jammu Jammu Jammu Jammu 
         </p>
-        <Button />
+        <Button styles="mt-10" />
+      </div>
+
+      <div className={`${layout.sectionImg}`}>
+        {features.map((feature, index) => {
+          <FeatureCard key={feature.id} {...feature} />
+        })}
       </div>
     </section>
   );
