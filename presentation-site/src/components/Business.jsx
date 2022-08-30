@@ -1,8 +1,10 @@
 import {features} from '../constants';
 import styles, {layout} from '../style.js';
 import Button from './Button.jsx';
+import FeatureCard from './FeatureCard.jsx';
 
 const Business = () => {
+  console.log(features);
   return (
     <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
@@ -17,11 +19,12 @@ const Business = () => {
         <Button styles="mt-10" />
       </div>
 
-      <div className={`${layout.sectionImg}`}>
-        {features.map((feature, index) => {
-          <FeatureCard key={feature.id} {...feature} />
-        })}
+      <div className={`${layout.sectionImg} flex-col`}>
+        {features.map((feature, index) => (
+          <FeatureCard key={feature.id} index={index} {...feature} />
+        ))}
       </div>
+
     </section>
   );
 };
