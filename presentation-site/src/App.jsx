@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './style.js';
 
-import {Navbar, Billing, Business, Button, CardDeal, Clients, Stats,
+import {Navbar, Billing, Business, Button, CardDeal, Stats,
   CTA, Footer, GetInTouch, Hero, Testimonials} from './components/index.js';
 
 const App = () => (
@@ -25,7 +25,6 @@ const App = () => (
         <Billing />
         <CardDeal />
         <Testimonials />
-        <Clients />
         <CTA />
         <Footer />
       </div>
